@@ -1792,7 +1792,7 @@
         methods.composeSection16();
         methods.composeSection17();
         methods.composeSection_glossaryOfTerms();
-        methods.composeSectionFinal();
+        // methods.composeSectionFinal();
         ddDef.content = ddCont;
         // \\//  builds content
     }
@@ -2532,11 +2532,11 @@
             columns:
                 [
                     { "Family_Member": { "caption": "Name" } },
-                    { "Invested_Value": { "caption": "Invested Value (Cr)" } },
-                    { "Current_Value": { "caption": "Current Value (Cr)" } },
-                    { "Gain_Loss": { "caption": "Gain (Cr)", "green mark": true } },
-                    { "IRR": { "caption": "XIRR", "green mark": true } },
-                    { "Benchmark_IRR": { "caption": "BM XIRR", "green mark": true } }
+                    { "Invested_Value": { "caption": "Invested Value (Crs)" } },
+                    { "Current_Value": { "caption": "Current Value (Crs)" } },
+                    { "Gain_Loss": { "caption": "Gain (Crs)", "green mark": true } },
+                    { "IRR": { "caption": "XIRR (%)", "green mark": true } },
+                    { "Benchmark_IRR": { "caption": "BM XIRR (%)", "green mark": true } }
                 ]
         });
     }
@@ -3499,7 +3499,7 @@
             columns:
                 [
                     { "Product_Name": { "caption": "Asset Class" } },
-                    { "Latest_Values": { "caption": "Latest Values (Cr)" } },
+                    { "Latest_Values": { "caption": "Latest Values (Crs)" } },
                     { "Weight": { "caption": "Weight" } },
                     { "Portfolio_Return": { "caption": "Portfolio Return" } },
                     { "Benchmark_Return": { "caption": "Benchmark Return" } }
@@ -4184,7 +4184,7 @@
                     { "Weight": { "caption": "Weight" } },
                     { "Current_Value": { "caption": "Current Value" } },
                     { "Invested_Value": { "caption": "Invested Value" } },
-                    { "Gain": { "caption": "GAIN" } },
+                    { "Gain": { "caption": "Gain" } },
                     { "XIRR": { "caption": "XIRR" } }
                 ]
         });
@@ -4863,7 +4863,7 @@ ccc( xAxis_categories )
                 [
                     { "EQUITY": { "caption": "Security" } },
                     { "sector_name": { "caption": "Sector" } },
-                    { "CONTRIBUTION": { "caption": "XIRR (%)" } },
+                    { "CONTRIBUTION": { "caption": "Contribution" } },
                 ]
         });
         methods.tableTpl_2_content({
@@ -4949,7 +4949,7 @@ ccc( xAxis_categories )
                     { "Weight": { "caption": "Weight" } },
                     { "Invested_Value": { "caption": "Invested Value" } },
                     { "Current_Value": { "caption": "Current Value" } },
-                    { "Gain": { "caption": "GAIN" } },
+                    { "Gain": { "caption": "Gain" } },
                     { "XIRR": { "caption": "XIRR" } }
                 ]
         });
