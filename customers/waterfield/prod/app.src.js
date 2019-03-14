@@ -2922,13 +2922,15 @@
 
         */
 
-
-
         var seriesColors = ['#afdbdb', '#27527c'];
-        var xAxis_categories = table.map(row => row.PERIOD_IN_MONTHS);
+        // var xAxis_categories = table.map(row => row.PERIOD_IN_MONTHS);
+        var xAxis_categories = [];
+        xAxis_categories.push('A');
+        for (var i = 0; i <= table.length - 1; i++) {
+            xAxis_categories.push(table[i].PERIOD_IN_MONTHS);
+        }
         var series_data = table.map((row, rix) => [row['ID'], row['XIRR']]);
         var series1_data = table1.map((row, rix) => [row['ID'], row['XIRR']]);
-
 
         if (overrideColumnBottom) {
             ////decorates bottom rounded corners
@@ -2966,7 +2968,6 @@
                 visible: true,
                 tickLength: 0,
                 categories: xAxis_categories,
-                //type: "category",
                 labels: {
                     enabled: true
                 },
@@ -2991,10 +2992,9 @@
                 }
             },
 
-            "series": [
+            series: [
                 {
                     name: 'Portfolio',
-                    //borderRadius : chartType === "column" ? 10 : 0,
                     showInLegend: true,
                     dataLabels: {
                         color: nheap.dataLabelsColor,
@@ -3007,7 +3007,6 @@
                 ,
                 {
                     name: 'Benchmark',
-                    //borderRadius : chartType === "column" ? 10 : 0,
                     showInLegend: true,
                     dataLabels: {
                         color: nheap.dataLabelsColor,
