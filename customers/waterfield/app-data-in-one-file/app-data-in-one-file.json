@@ -1,0 +1,1968 @@
+{
+    "Page 10": {
+        "RatingWiseAndMaturityExposure.txt": {
+            "Table": [
+                {
+                    "RATING": "AAA",
+                    "Exposure": "65.94"
+                },
+                {
+                    "RATING": "AA",
+                    "Exposure": "26.06"
+                },
+                {
+                    "RATING": "A",
+                    "Exposure": "7.20"
+                },
+                {
+                    "RATING": "Unrated",
+                    "Exposure": "0.65"
+                },
+                {
+                    "RATING": "BBB",
+                    "Exposure": "0.11"
+                },
+                {
+                    "RATING": "D",
+                    "Exposure": "0.01"
+                }
+            ],
+            "Table1": [
+                {
+                    "MATURITY": "1-3 Yr",
+                    "WEIGHT": 33.82
+                },
+                {
+                    "MATURITY": "< 3 Months",
+                    "WEIGHT": 22.94
+                },
+                {
+                    "MATURITY": "> 3 Yr",
+                    "WEIGHT": 21.5
+                },
+                {
+                    "MATURITY": "6-12 Months",
+                    "WEIGHT": 12.06
+                },
+                {
+                    "MATURITY": "3-6 Months",
+                    "WEIGHT": 9.55
+                }
+            ]
+        }
+    },
+    "Page 11": {
+        "Top10Holdings.txt": {
+            "Table4": [
+                {
+                    "Name": "ICICI Prudential Liquid Fund",
+                    "Category": "Liquid",
+                    "Weight": "6.74"
+                },
+                {
+                    "Name": "Aditya Birla Sun Life Liquid Fund",
+                    "Category": "Liquid",
+                    "Weight": "6.34"
+                },
+                {
+                    "Name": "HDFC Credit Risk Debt Fund",
+                    "Category": "Credit Risk",
+                    "Weight": "6.16"
+                },
+                {
+                    "Name": "UTI Short Term Income Fund",
+                    "Category": "Short Duration (Aggressive)",
+                    "Weight": "4.04"
+                },
+                {
+                    "Name": "HDFC Short Term Debt Fund",
+                    "Category": "Short Duration (Moderate)",
+                    "Weight": "3.79"
+                },
+                {
+                    "Name": "Tata Short Term Bond Fund",
+                    "Category": "Short Duration (Moderate)",
+                    "Weight": "3.62"
+                },
+                {
+                    "Name": "Aditya Birla Sun Life Savings Fund",
+                    "Category": "Ultra Short Duration (HCQ)",
+                    "Weight": "3.04"
+                },
+                {
+                    "Name": "ICICI Prudential Medium Term Bond Fund",
+                    "Category": "Medium Duration (MCQ)",
+                    "Weight": "2.84"
+                },
+                {
+                    "Name": "IDFC Bond Fund - Medium Term Plan",
+                    "Category": "Medium Duration (HCQ)",
+                    "Weight": "2.81"
+                },
+                {
+                    "Name": "Aditya Birla Sun Life Low Duration Fund",
+                    "Category": "Low Duration (MCQ)",
+                    "Weight": "11.24"
+                }
+            ]
+        },
+        "Top10Performance.txt": {
+            "Table": [
+                {
+                    "FIXEDINCOME": "Kieraya Furnishing Solutions Private Limited",
+                    "classification": "High Yield Debt",
+                    "CONTRIBUTION": 19.96
+                },
+                {
+                    "FIXEDINCOME": "HDFC Low Duration Fund",
+                    "classification": "Low Duration (HCQ)",
+                    "CONTRIBUTION": 16.65
+                },
+                {
+                    "FIXEDINCOME": "ICICI Prudential Credit Risk Fund",
+                    "classification": "Credit Risk",
+                    "CONTRIBUTION": 15.95
+                },
+                {
+                    "FIXEDINCOME": "HDFC Credit Risk Debt Fund",
+                    "classification": "Credit Risk",
+                    "CONTRIBUTION": 14.95
+                },
+                {
+                    "FIXEDINCOME": "UTI Short Term Income Fund",
+                    "classification": "Short Duration (Aggressive)",
+                    "CONTRIBUTION": 14.75
+                },
+                {
+                    "FIXEDINCOME": "UTI-Fixed Term Income Fund - Series XXX - VIII (1286 days)",
+                    "classification": "Close Ended",
+                    "CONTRIBUTION": 13.9
+                },
+                {
+                    "FIXEDINCOME": "HDFC FMP 1381D September 2018 (1)",
+                    "classification": "Close Ended",
+                    "CONTRIBUTION": 13.41
+                },
+                {
+                    "FIXEDINCOME": "IFMR FImpact Long Term Multi Asset Class Fund",
+                    "classification": "High Yield Debt",
+                    "CONTRIBUTION": 13.01
+                },
+                {
+                    "FIXEDINCOME": "IFMR FImpact Income Builder Fund",
+                    "classification": "High Yield Debt",
+                    "CONTRIBUTION": 12.94
+                },
+                {
+                    "FIXEDINCOME": "UTI Ultra Short Term Fund",
+                    "classification": "Ultra Short Duration (MCQ)",
+                    "CONTRIBUTION": 12.92
+                }
+            ]
+        }
+    },
+    "Page 12": {
+        "DebtPortfolioPerformance(DistributorWisePerformance).txt": {
+            "Table": [
+                {
+                    "FAMILY_ID": 16382,
+                    "Name": "Direct",
+                    "Weight": 15.01,
+                    "Current_Value": 210.87,
+                    "Invested_Value": 234.76,
+                    "Gain": 23.89,
+                    "XIRR": 8.33
+                },
+                {
+                    "FAMILY_ID": 16382,
+                    "Name": "Ask Wealth Advisors",
+                    "Weight": 0.78,
+                    "Current_Value": 10.91,
+                    "Invested_Value": 12.19,
+                    "Gain": 1.28,
+                    "XIRR": 7.81
+                },
+                {
+                    "FAMILY_ID": 16382,
+                    "Name": "Kotak ARN 1390",
+                    "Weight": 7.42,
+                    "Current_Value": 110.63,
+                    "Invested_Value": 116.03,
+                    "Gain": 5.41,
+                    "XIRR": 6.86
+                },
+                {
+                    "FAMILY_ID": 16382,
+                    "Name": "Hariharan",
+                    "Weight": 1,
+                    "Current_Value": 13.25,
+                    "Invested_Value": 15.58,
+                    "Gain": 2.32,
+                    "XIRR": 7.19
+                },
+                {
+                    "FAMILY_ID": 16382,
+                    "Name": "Jacob",
+                    "Weight": 1.27,
+                    "Current_Value": 16,
+                    "Invested_Value": 19.93,
+                    "Gain": 3.93,
+                    "XIRR": 6.88
+                },
+                {
+                    "FAMILY_ID": 16382,
+                    "Name": "Citibank",
+                    "Weight": 19.6,
+                    "Current_Value": 244.36,
+                    "Invested_Value": 306.57,
+                    "Gain": 62.21,
+                    "XIRR": 7.73
+                },
+                {
+                    "FAMILY_ID": 16382,
+                    "Name": "Deutsche Bank",
+                    "Weight": 10.63,
+                    "Current_Value": 155.21,
+                    "Invested_Value": 166.21,
+                    "Gain": 11,
+                    "XIRR": 6.86
+                },
+                {
+                    "FAMILY_ID": 16382,
+                    "Name": "ICICI Bank",
+                    "Weight": 44.29,
+                    "Current_Value": 654.53,
+                    "Invested_Value": 692.8,
+                    "Gain": 38.27,
+                    "XIRR": 7.37
+                }
+            ]
+        }
+    },
+    "Page 13": {
+        "EquityPortfolioExposure(ProductWiseExpsoure).txt": {
+            "Table": [
+                {
+                    "label": "Mutual Funds",
+                    "weight": 76.46,
+                    "color": "#646e7d"
+                },
+                {
+                    "label": "Direct Equity",
+                    "weight": 14.69,
+                    "color": "#d78f89"
+                },
+                {
+                    "label": "PMS",
+                    "weight": 5.64,
+                    "color": "#f6c975"
+                },
+                {
+                    "label": "Alternate Equity",
+                    "weight": 2.96,
+                    "color": "#29335d"
+                },
+                {
+                    "label": "AIF",
+                    "weight": 0.23,
+                    "color": "#98d8e5"
+                }
+            ]
+        },
+        "MarketCapWiseExposure.txt": {
+            "Table": [
+                {
+                    "MCAP_TYPE": "Large Cap",
+                    "MARKET_CAP": 78.1
+                },
+                {
+                    "MCAP_TYPE": "Mid Cap",
+                    "MARKET_CAP": 14.69
+                },
+                {
+                    "MCAP_TYPE": "Small Cap",
+                    "MARKET_CAP": 7.2
+                }
+            ]
+        }
+    },
+    "Page 14": {
+        "SectorWiseExposure.txt": {
+            "Table": [
+                {
+                    "RANK": 1,
+                    "SECTOR_NAME": "Financial Services",
+                    "SECTOR_WEIGHT": 35.77
+                },
+                {
+                    "RANK": 2,
+                    "SECTOR_NAME": "Consumer Cyclical",
+                    "SECTOR_WEIGHT": 12.06
+                },
+                {
+                    "RANK": 3,
+                    "SECTOR_NAME": "Technology",
+                    "SECTOR_WEIGHT": 9.54
+                },
+                {
+                    "RANK": 4,
+                    "SECTOR_NAME": "Basic Materials",
+                    "SECTOR_WEIGHT": 9.44
+                },
+                {
+                    "RANK": 5,
+                    "SECTOR_NAME": "Consumer Defensive",
+                    "SECTOR_WEIGHT": 8.72
+                },
+                {
+                    "RANK": 6,
+                    "SECTOR_NAME": "Industrials",
+                    "SECTOR_WEIGHT": 8.03
+                },
+                {
+                    "RANK": 7,
+                    "SECTOR_NAME": "Energy",
+                    "SECTOR_WEIGHT": 6.08
+                },
+                {
+                    "RANK": 8,
+                    "SECTOR_NAME": "Healthcare",
+                    "SECTOR_WEIGHT": 5.29
+                },
+                {
+                    "RANK": 9,
+                    "SECTOR_NAME": "Utilities",
+                    "SECTOR_WEIGHT": 3.18
+                },
+                {
+                    "RANK": 10,
+                    "SECTOR_NAME": "Communication Services",
+                    "SECTOR_WEIGHT": 1.6
+                },
+                {
+                    "RANK": 11,
+                    "SECTOR_NAME": "Real Estate",
+                    "SECTOR_WEIGHT": 0.24
+                }
+            ]
+        }
+    },
+    "Page 15": {
+        "Top10Holdings.txt": {
+            "Table": [
+                {
+                    "Name": "Aditya Birla Sun Life Frontline Equity Fund",
+                    "Category": "Mutual Funds",
+                    "Weight": 9.86
+                },
+                {
+                    "Name": "ICICI Prudential Bluechip Fund",
+                    "Category": "Mutual Funds",
+                    "Weight": 9.47
+                },
+                {
+                    "Name": "Kotak Standard Multicap Fund",
+                    "Category": "Mutual Funds",
+                    "Weight": 7.12
+                },
+                {
+                    "Name": "Franklin India Equity Fund",
+                    "Category": "Mutual Funds",
+                    "Weight": 6.24
+                },
+                {
+                    "Name": "DSP Equity Opportunities Fund",
+                    "Category": "Mutual Funds",
+                    "Weight": 5.54
+                },
+                {
+                    "Name": "SBI Blue Chip Fund",
+                    "Category": "Mutual Funds",
+                    "Weight": 5.13
+                },
+                {
+                    "Name": "Franklin India Bluechip Fund",
+                    "Category": "Mutual Funds",
+                    "Weight": 4.29
+                },
+                {
+                    "Name": "ICICI Prudential Value Discovery Fund",
+                    "Category": "Mutual Funds",
+                    "Weight": 3.77
+                },
+                {
+                    "Name": "Mirae Asset India Equity Fund",
+                    "Category": "Mutual Funds",
+                    "Weight": 3.43
+                },
+                {
+                    "Name": "SBI Magnum Equity ESG Fund",
+                    "Category": "Mutual Funds",
+                    "Weight": 3.27
+                }
+            ]
+        },
+        "Top10Perfomance.txt": {
+            "Table": [
+                {
+                    "EQUITY": "Titan Company Ltd.                                                         ",
+                    "sector_name": "Consumer Cyclical",
+                    "CONTRIBUTION": 53.79
+                },
+                {
+                    "EQUITY": "ICICI Prudential Bluechip Fund",
+                    "sector_name": "Large Cap Funds",
+                    "CONTRIBUTION": 37.39
+                },
+                {
+                    "EQUITY": "Havells India Ltd.                                                         ",
+                    "sector_name": "Industrials",
+                    "CONTRIBUTION": 28.22
+                },
+                {
+                    "EQUITY": "Hindustan Unilever Ltd.                                                    ",
+                    "sector_name": "Consumer Defensive",
+                    "CONTRIBUTION": 22.98
+                },
+                {
+                    "EQUITY": "Franklin India Prima Fund",
+                    "sector_name": "Mid Cap Funds",
+                    "CONTRIBUTION": 22.48
+                },
+                {
+                    "EQUITY": "Symphony Ltd.                                                              ",
+                    "sector_name": "Technology",
+                    "CONTRIBUTION": 21.62
+                },
+                {
+                    "EQUITY": "Housing Development Finance Corporation Ltd.                               ",
+                    "sector_name": "Financial Services",
+                    "CONTRIBUTION": 21.42
+                },
+                {
+                    "EQUITY": "Aditya Birla Sun Life Frontline Equity Fund",
+                    "sector_name": "Large Cap Funds",
+                    "CONTRIBUTION": 19.4
+                },
+                {
+                    "EQUITY": "Asian Paints Ltd.                                                          ",
+                    "sector_name": "Basic Materials",
+                    "CONTRIBUTION": 19.29
+                },
+                {
+                    "EQUITY": "ICICI Prudential Value Discovery Fund",
+                    "sector_name": "Value Funds",
+                    "CONTRIBUTION": 17.19
+                }
+            ]
+        }
+    },
+    "Page 16": {
+        "EquityPortfolioPerformance(DistributorWisePerformance).txt": {
+            "Table": [
+                {
+                    "FAMILY_ID": 16382,
+                    "Name": "Direct",
+                    "Weight": 28.82,
+                    "Current_Value": 577.89,
+                    "Invested_Value": 615.03,
+                    "Gain": 38.22,
+                    "XIRR": 2.67
+                },
+                {
+                    "FAMILY_ID": 16382,
+                    "Name": "Citibank",
+                    "Weight": 24.53,
+                    "Current_Value": 524.71,
+                    "Invested_Value": 523.48,
+                    "Gain": -1.23,
+                    "XIRR": 12.62
+                },
+                {
+                    "FAMILY_ID": 16382,
+                    "Name": "ICICI Bank",
+                    "Weight": 25.53,
+                    "Current_Value": 498.29,
+                    "Invested_Value": 544.89,
+                    "Gain": 46.6,
+                    "XIRR": 12.95
+                },
+                {
+                    "FAMILY_ID": 16382,
+                    "Name": "Kotak ARN 1390",
+                    "Weight": 8.64,
+                    "Current_Value": 203.12,
+                    "Invested_Value": 184.49,
+                    "Gain": -14.82,
+                    "XIRR": 5.5
+                },
+                {
+                    "FAMILY_ID": 16382,
+                    "Name": "Deutsche Bank",
+                    "Weight": 5.2,
+                    "Current_Value": 114.59,
+                    "Invested_Value": 110.99,
+                    "Gain": -3.61,
+                    "XIRR": 9.61
+                },
+                {
+                    "FAMILY_ID": 16382,
+                    "Name": "Ask Wealth Advisors",
+                    "Weight": 3.62,
+                    "Current_Value": 76.5,
+                    "Invested_Value": 77.2,
+                    "Gain": 1.69,
+                    "XIRR": 7.55
+                },
+                {
+                    "FAMILY_ID": 16382,
+                    "Name": "Hariharan",
+                    "Weight": 2.38,
+                    "Current_Value": 48.53,
+                    "Invested_Value": 50.82,
+                    "Gain": 2.3,
+                    "XIRR": 2.6
+                },
+                {
+                    "FAMILY_ID": 16382,
+                    "Name": "Jacob",
+                    "Weight": 1.28,
+                    "Current_Value": 27.57,
+                    "Invested_Value": 27.26,
+                    "Gain": -0.31,
+                    "XIRR": -0.82
+                }
+            ]
+        }
+    },
+    "Page 17": {
+        "EquityPortfolioAnalysis(AMC Exposure).txt": {
+            "Table": [
+                {
+                    "RANK": 1,
+                    "label": "ICICI Prudential",
+                    "weight": 19.71,
+                    "color": "#cee4e8"
+                },
+                {
+                    "RANK": 1,
+                    "label": "Franklin Templeton",
+                    "weight": 16.86,
+                    "color": "#d78f89"
+                },
+                {
+                    "RANK": 1,
+                    "label": " Aditya Birla Sunlife",
+                    "weight": 14.23,
+                    "color": "#646e7d"
+                },
+                {
+                    "RANK": 1,
+                    "label": "Kotak",
+                    "weight": 11.82,
+                    "color": "#7f7fac"
+                },
+                {
+                    "RANK": 1,
+                    "label": "DSP",
+                    "weight": 11.4,
+                    "color": "#d5e1b6"
+                },
+                {
+                    "RANK": 1,
+                    "label": "SBI",
+                    "weight": 11.01,
+                    "color": "#211f1f"
+                },
+                {
+                    "RANK": 1,
+                    "label": "Mirae Global",
+                    "weight": 4.5,
+                    "color": "#98d8e5"
+                },
+                {
+                    "RANK": 1,
+                    "label": "L&T",
+                    "weight": 4.02,
+                    "color": "#29335d"
+                },
+                {
+                    "RANK": 1,
+                    "label": "Motilal Oswal",
+                    "weight": 3.79,
+                    "color": "#f6c975"
+                },
+                {
+                    "RANK": 1,
+                    "label": "HDFC",
+                    "weight": 1.77,
+                    "color": "#9fb2c7"
+                },
+                {
+                    "RANK": 1,
+                    "label": "IDFC",
+                    "weight": 0.52,
+                    "color": "#a5ae84"
+                },
+                {
+                    "RANK": 1,
+                    "label": "Parag",
+                    "weight": 0.33,
+                    "color": "#e3c8cc"
+                }
+            ]
+        }
+    },
+    "Page 2": {
+        "OverallSummaryAndFamilyMember.txt": {
+            "Table": [
+                {
+                    "CURRENT_VALUE": 4039.163507,
+                    "INVESTED_AMOUNT": 3821.48663705,
+                    "GAINLOSS": 223.552577,
+                    "UNREALISEDGAINLOSS": 223.552577,
+                    "REALISEDGAINLOSS": 0,
+                    "DIVIDEND": 0,
+                    "IRR": 8.79,
+                    "BMIRR": 8.29
+                }
+            ],
+            "Table1": [
+                {
+                    "FAMILY_NAME": "Gopalakrishnan Family Office",
+                    "Client_id": 16986,
+                    "Family_Member": "Senapathy Gopalakrishnan",
+                    "Invested_Value": 975.446398,
+                    "Current_Value": 1004.601454,
+                    "Gain_Loss": -32.968442,
+                    "Total": 100460.1454,
+                    "IRR": -7.45,
+                    "Benchmark_IRR": -7.45
+                },
+                {
+                    "FAMILY_NAME": "Gopalakrishnan Family Office",
+                    "Client_id": 16905,
+                    "Family_Member": "Sudha Gopalakrishnan",
+                    "Invested_Value": 2564.303083,
+                    "Current_Value": 2739.840452,
+                    "Gain_Loss": -177.599689,
+                    "Total": 273984.0452,
+                    "IRR": 9.59,
+                    "Benchmark_IRR": 8.82
+                },
+                {
+                    "FAMILY_NAME": "Gopalakrishnan Family Office",
+                    "Client_id": 16812,
+                    "Family_Member": "Meghana Gopalakrishnan",
+                    "Invested_Value": 138.954422,
+                    "Current_Value": 149.128469,
+                    "Gain_Loss": 10.174046,
+                    "Total": 14912.8469,
+                    "IRR": -7.65,
+                    "Benchmark_IRR": 7.86
+                },
+                {
+                    "FAMILY_NAME": "Gopalakrishnan Family Office",
+                    "Client_id": 16680,
+                    "Family_Member": "Pratithi Investment Trust",
+                    "Invested_Value": 142.782732,
+                    "Current_Value": 145.593131,
+                    "Gain_Loss": 2.810398,
+                    "Total": 14559.3131,
+                    "IRR": 3.02,
+                    "Benchmark_IRR": 3.02
+                },
+                {
+                    "FAMILY_NAME": null,
+                    "Client_id": null,
+                    "Family_Member": "Total",
+                    "Invested_Value": 3821.486637,
+                    "Current_Value": 4039.163507,
+                    "Gain_Loss": 223.552577,
+                    "Total": 100,
+                    "IRR": 8.79,
+                    "Benchmark_IRR": 8.29
+                }
+            ],
+            "Table2": [
+                {
+                    "MONTH_END_DATE": "2016-02-29T00:00:00",
+                    "CURRENT_VALUE": 2199.1857453036,
+                    "INVESTED_VALUE": 2015.7778255749,
+                    "GAIN": 183.40791972874
+                },
+                {
+                    "MONTH_END_DATE": "2016-03-31T00:00:00",
+                    "CURRENT_VALUE": 2730.3530113579,
+                    "INVESTED_VALUE": 2429.2821352354,
+                    "GAIN": 301.0708761225
+                },
+                {
+                    "MONTH_END_DATE": "2016-04-30T00:00:00",
+                    "CURRENT_VALUE": 2783.9524530278,
+                    "INVESTED_VALUE": 2461.0375291919,
+                    "GAIN": 322.91492383586
+                },
+                {
+                    "MONTH_END_DATE": "2016-05-31T00:00:00",
+                    "CURRENT_VALUE": 2854.8530371767,
+                    "INVESTED_VALUE": 2499.5253722595,
+                    "GAIN": 355.32766491717
+                },
+                {
+                    "MONTH_END_DATE": "2016-06-30T00:00:00",
+                    "CURRENT_VALUE": 3135.743326507,
+                    "INVESTED_VALUE": 2738.7657114836,
+                    "GAIN": 396.97761502348
+                },
+                {
+                    "MONTH_END_DATE": "2016-07-31T00:00:00",
+                    "CURRENT_VALUE": 3204.2481015808,
+                    "INVESTED_VALUE": 2733.7180711688,
+                    "GAIN": 470.53003041201
+                },
+                {
+                    "MONTH_END_DATE": "2016-08-31T00:00:00",
+                    "CURRENT_VALUE": 3238.22214691,
+                    "INVESTED_VALUE": 2734.4879195658,
+                    "GAIN": 503.73422734419
+                },
+                {
+                    "MONTH_END_DATE": "2016-09-30T00:00:00",
+                    "CURRENT_VALUE": 3198.8331837158,
+                    "INVESTED_VALUE": 2717.4092915581,
+                    "GAIN": 481.42389215766
+                },
+                {
+                    "MONTH_END_DATE": "2016-10-31T00:00:00",
+                    "CURRENT_VALUE": 3307.4985402966,
+                    "INVESTED_VALUE": 2817.1402779201,
+                    "GAIN": 490.35826237646
+                },
+                {
+                    "MONTH_END_DATE": "2016-11-30T00:00:00",
+                    "CURRENT_VALUE": 3268.4517024869,
+                    "INVESTED_VALUE": 2821.9510098149,
+                    "GAIN": 446.50069267195
+                },
+                {
+                    "MONTH_END_DATE": "2016-12-31T00:00:00",
+                    "CURRENT_VALUE": 3172.0900260165,
+                    "INVESTED_VALUE": 2759.5179611384,
+                    "GAIN": 412.57206487811
+                },
+                {
+                    "MONTH_END_DATE": "2017-01-31T00:00:00",
+                    "CURRENT_VALUE": 3203.3080060834,
+                    "INVESTED_VALUE": 2747.6200217039,
+                    "GAIN": 455.68798437943
+                },
+                {
+                    "MONTH_END_DATE": "2017-02-28T00:00:00",
+                    "CURRENT_VALUE": 3281.652600194,
+                    "INVESTED_VALUE": 2764.872027998,
+                    "GAIN": 516.78057219607
+                },
+                {
+                    "MONTH_END_DATE": "2017-03-31T00:00:00",
+                    "CURRENT_VALUE": 3317.0367282861,
+                    "INVESTED_VALUE": 2789.2888899481,
+                    "GAIN": 527.74783833799
+                },
+                {
+                    "MONTH_END_DATE": "2017-04-30T00:00:00",
+                    "CURRENT_VALUE": 3345.4282519185,
+                    "INVESTED_VALUE": 2841.1744474697,
+                    "GAIN": 504.25380444872
+                },
+                {
+                    "MONTH_END_DATE": "2017-05-31T00:00:00",
+                    "CURRENT_VALUE": 3384.1889342999,
+                    "INVESTED_VALUE": 2848.2879099488,
+                    "GAIN": 535.90102435111
+                },
+                {
+                    "MONTH_END_DATE": "2017-06-30T00:00:00",
+                    "CURRENT_VALUE": 3511.1055765356,
+                    "INVESTED_VALUE": 2982.7375467988,
+                    "GAIN": 528.36802973685
+                },
+                {
+                    "MONTH_END_DATE": "2017-07-31T00:00:00",
+                    "CURRENT_VALUE": 3616.391200968,
+                    "INVESTED_VALUE": 2997.3147243139,
+                    "GAIN": 619.07647665414
+                },
+                {
+                    "MONTH_END_DATE": "2017-08-31T00:00:00",
+                    "CURRENT_VALUE": 3599.5251030316,
+                    "INVESTED_VALUE": 3166.7718432612,
+                    "GAIN": 432.7532597704
+                },
+                {
+                    "MONTH_END_DATE": "2017-09-30T00:00:00",
+                    "CURRENT_VALUE": 3562.7227898505,
+                    "INVESTED_VALUE": 3152.5690773706,
+                    "GAIN": 410.15371247994
+                },
+                {
+                    "MONTH_END_DATE": "2017-10-31T00:00:00",
+                    "CURRENT_VALUE": 3656.8359290867,
+                    "INVESTED_VALUE": 3162.8139150306,
+                    "GAIN": 494.02201405606
+                },
+                {
+                    "MONTH_END_DATE": "2017-11-30T00:00:00",
+                    "CURRENT_VALUE": 3766.8410035367,
+                    "INVESTED_VALUE": 3283.6375210458,
+                    "GAIN": 483.20348249089
+                },
+                {
+                    "MONTH_END_DATE": "2017-12-31T00:00:00",
+                    "CURRENT_VALUE": 4029.9971023041,
+                    "INVESTED_VALUE": 3492.4036024294,
+                    "GAIN": 537.59349987472
+                },
+                {
+                    "MONTH_END_DATE": "2018-01-31T00:00:00",
+                    "CURRENT_VALUE": 3972.174446354,
+                    "INVESTED_VALUE": 3466.5568910213,
+                    "GAIN": 505.61755533269
+                },
+                {
+                    "MONTH_END_DATE": "2018-02-28T00:00:00",
+                    "CURRENT_VALUE": 3882.1389474924,
+                    "INVESTED_VALUE": 3552.6236096268,
+                    "GAIN": 329.51533786563
+                },
+                {
+                    "MONTH_END_DATE": "2018-03-31T00:00:00",
+                    "CURRENT_VALUE": 3823.0763523188,
+                    "INVESTED_VALUE": 3556.498281493,
+                    "GAIN": 266.57807082572
+                },
+                {
+                    "MONTH_END_DATE": "2018-04-30T00:00:00",
+                    "CURRENT_VALUE": 3902.9781286721,
+                    "INVESTED_VALUE": 3535.6442281911,
+                    "GAIN": 367.33390048099
+                },
+                {
+                    "MONTH_END_DATE": "2018-05-31T00:00:00",
+                    "CURRENT_VALUE": 3881.5798947487,
+                    "INVESTED_VALUE": 3541.1388673944,
+                    "GAIN": 340.44102735428
+                },
+                {
+                    "MONTH_END_DATE": "2018-06-30T00:00:00",
+                    "CURRENT_VALUE": 4042.0139515625,
+                    "INVESTED_VALUE": 3737.2725079585,
+                    "GAIN": 304.74144360402
+                },
+                {
+                    "MONTH_END_DATE": "2018-07-31T00:00:00",
+                    "CURRENT_VALUE": 4133.5061612655,
+                    "INVESTED_VALUE": 3731.0673623805,
+                    "GAIN": 402.43879888498
+                },
+                {
+                    "MONTH_END_DATE": "2018-08-31T00:00:00",
+                    "CURRENT_VALUE": 4151.3215555811,
+                    "INVESTED_VALUE": 3685.3517638116,
+                    "GAIN": 465.96979176943
+                },
+                {
+                    "MONTH_END_DATE": "2018-09-30T00:00:00",
+                    "CURRENT_VALUE": 3958.0663527871,
+                    "INVESTED_VALUE": 3674.6700032627,
+                    "GAIN": 283.39634952436
+                },
+                {
+                    "MONTH_END_DATE": "2018-10-31T00:00:00",
+                    "CURRENT_VALUE": 4060.9021572011,
+                    "INVESTED_VALUE": 3827.194955235,
+                    "GAIN": 233.70720196612
+                },
+                {
+                    "MONTH_END_DATE": "2018-11-30T00:00:00",
+                    "CURRENT_VALUE": 4092.7527447421,
+                    "INVESTED_VALUE": 3782.4248832775,
+                    "GAIN": 310.32786146461
+                },
+                {
+                    "MONTH_END_DATE": "2018-12-31T00:00:00",
+                    "CURRENT_VALUE": 4093.3130246152,
+                    "INVESTED_VALUE": 3760.2684157405,
+                    "GAIN": 333.04460887465
+                },
+                {
+                    "MONTH_END_DATE": "2019-01-31T00:00:00",
+                    "CURRENT_VALUE": 4058.3936362945,
+                    "INVESTED_VALUE": 3762.8718230275,
+                    "GAIN": 295.52181326697
+                }
+            ]
+        }
+    },
+    "Page 3": {
+        "Exposure(Asset Type).txt": {
+            "Table": [
+                {
+                    "label": "Equity",
+                    "weight": 52.84,
+                    "color": "#d78f89"
+                },
+                {
+                    "label": "Fixed Income",
+                    "weight": 38.72,
+                    "color": "#d5e1b6"
+                },
+                {
+                    "label": "Alternate Assets",
+                    "weight": 6.85,
+                    "color": "#9fb2c7"
+                },
+                {
+                    "label": "Cash & Equivalents",
+                    "weight": 1.53,
+                    "color": "#9fb2c7"
+                },
+                {
+                    "label": "Other Assets",
+                    "weight": 0.06,
+                    "color": "#9fb2c7"
+                }
+            ]
+        },
+        "Exposure(ProductType).txt": {
+            "Table": [
+                {
+                    "label": "Equity MF",
+                    "weight": 40.4,
+                    "color": "#646e7d"
+                },
+                {
+                    "label": "Fixed Income MF",
+                    "weight": 33.82,
+                    "color": "#646e7d"
+                },
+                {
+                    "label": "Direct Equity",
+                    "weight": 7.76,
+                    "color": "#d78f89"
+                },
+                {
+                    "label": "PE/VC Fund",
+                    "weight": 6.84,
+                    "color": "#e3d9c6"
+                },
+                {
+                    "label": "PMS",
+                    "weight": 2.98,
+                    "color": "#f6c975"
+                },
+                {
+                    "label": "High Yield Debt",
+                    "weight": 1.89,
+                    "color": "#e3d9c6"
+                },
+                {
+                    "label": "Bonds / Debentures",
+                    "weight": 1.8,
+                    "color": "#9fb2c7"
+                },
+                {
+                    "label": "Alternate Equity",
+                    "weight": 1.56,
+                    "color": "#29335d"
+                },
+                {
+                    "label": "Cash and Others",
+                    "weight": 1.52,
+                    "color": "#f6c975"
+                },
+                {
+                    "label": "Arbitrage Funds",
+                    "weight": 0.5,
+                    "color": "#646e7d"
+                },
+                {
+                    "label": "Preference Shares",
+                    "weight": 0.49,
+                    "color": "#e3c8cc"
+                },
+                {
+                    "label": "Structured Product",
+                    "weight": 0.12,
+                    "color": "#646e7d"
+                },
+                {
+                    "label": "Equity AIF",
+                    "weight": 0.12,
+                    "color": "#f6c975"
+                },
+                {
+                    "label": "Fixed Deposit",
+                    "weight": 0.07,
+                    "color": "#d5e1b6"
+                },
+                {
+                    "label": "Insurance",
+                    "weight": 0.06,
+                    "color": "#f6c975"
+                }
+            ]
+        }
+    },
+    "Page 4": {
+        "Top10Holdings.txt": {
+            "Table": [
+                {
+                    "Scheme_Name": "Aditya Birla Sun Life Frontline Equity Fund",
+                    "Asset_Class": "Equity",
+                    "Amount": 210.700598,
+                    "Weight": 5.2164414198573,
+                    "Rta_Code": "",
+                    "Product_Id": ""
+                },
+                {
+                    "Scheme_Name": "ICICI Prudential Bluechip Fund",
+                    "Asset_Class": "Equity",
+                    "Amount": 202.274218,
+                    "Weight": 5.0078244659659,
+                    "Rta_Code": "",
+                    "Product_Id": ""
+                },
+                {
+                    "Scheme_Name": "Aditya Birla Sun Life Low Duration Fund",
+                    "Asset_Class": "Fixed Income",
+                    "Amount": 175.816693,
+                    "Weight": 4.3527996103987,
+                    "Rta_Code": "",
+                    "Product_Id": ""
+                },
+                {
+                    "Scheme_Name": "Kotak Standard Multicap Fund",
+                    "Asset_Class": "Equity",
+                    "Amount": 152.376512,
+                    "Weight": 3.7724769489222,
+                    "Rta_Code": "",
+                    "Product_Id": ""
+                },
+                {
+                    "Scheme_Name": "Franklin India Equity Fund",
+                    "Asset_Class": "Equity",
+                    "Amount": 133.372758,
+                    "Weight": 3.3019895909135,
+                    "Rta_Code": "",
+                    "Product_Id": ""
+                },
+                {
+                    "Scheme_Name": "DSP Equity Opportunities Fund",
+                    "Asset_Class": "Equity",
+                    "Amount": 118.484459,
+                    "Weight": 2.9333910123112,
+                    "Rta_Code": "",
+                    "Product_Id": ""
+                },
+                {
+                    "Scheme_Name": "SBI Blue Chip Fund",
+                    "Asset_Class": "Equity",
+                    "Amount": 109.838238,
+                    "Weight": 2.7193313285676,
+                    "Rta_Code": "",
+                    "Product_Id": ""
+                },
+                {
+                    "Scheme_Name": "ICICI Prudential Liquid Fund",
+                    "Asset_Class": "Fixed Income",
+                    "Amount": 105.570496,
+                    "Weight": 2.613672270025,
+                    "Rta_Code": "",
+                    "Product_Id": ""
+                },
+                {
+                    "Scheme_Name": "Aditya Birla Sun Life Liquid Fund",
+                    "Asset_Class": "Fixed Income",
+                    "Amount": 99.176449,
+                    "Weight": 2.4553710056133,
+                    "Rta_Code": "",
+                    "Product_Id": ""
+                },
+                {
+                    "Scheme_Name": "HDFC Credit Risk Debt Fund",
+                    "Asset_Class": "Fixed Income",
+                    "Amount": 96.465774,
+                    "Weight": 2.3882611948076,
+                    "Rta_Code": "",
+                    "Product_Id": ""
+                }
+            ]
+        },
+        "Top10Position.txt": {
+            "Table": [
+                {
+                    "EQUITY": "Titan Company Ltd.                                                         ",
+                    "sector_name": "Consumer Cyclical",
+                    "CONTRIBUTION": 53.79
+                },
+                {
+                    "EQUITY": "ICICI Prudential Bluechip Fund",
+                    "sector_name": "Large Cap Funds",
+                    "CONTRIBUTION": 37.39
+                },
+                {
+                    "EQUITY": "Havells India Ltd.                                                         ",
+                    "sector_name": "Industrials",
+                    "CONTRIBUTION": 28.22
+                },
+                {
+                    "EQUITY": "Hindustan Unilever Ltd.                                                    ",
+                    "sector_name": "Consumer Defensive",
+                    "CONTRIBUTION": 22.98
+                },
+                {
+                    "EQUITY": "Franklin India Prima Fund",
+                    "sector_name": "Mid Cap Funds",
+                    "CONTRIBUTION": 22.48
+                },
+                {
+                    "EQUITY": "Symphony Ltd.                                                              ",
+                    "sector_name": "Technology",
+                    "CONTRIBUTION": 21.62
+                },
+                {
+                    "EQUITY": "Housing Development Finance Corporation Ltd.                               ",
+                    "sector_name": "Financial Services",
+                    "CONTRIBUTION": 21.42
+                },
+                {
+                    "EQUITY": "Aditya Birla Sun Life Frontline Equity Fund",
+                    "sector_name": "Large Cap Funds",
+                    "CONTRIBUTION": 19.4
+                },
+                {
+                    "EQUITY": "Asian Paints Ltd.                                                          ",
+                    "sector_name": "Basic Materials",
+                    "CONTRIBUTION": 19.29
+                },
+                {
+                    "EQUITY": "ICICI Prudential Value Discovery Fund",
+                    "sector_name": "Value Funds",
+                    "CONTRIBUTION": 17.19
+                }
+            ]
+        }
+    },
+    "Page 5": {
+        "HistoricalPerformanceVsBlendedBenchmark.txt": {
+            "Table": [
+                {
+                    "ID": 1,
+                    "FROMDATE": "2019-01-01T00:00:00",
+                    "TODATE": "2019-02-19T00:00:00",
+                    "PERIOD_IN_MONTHS": "YTD",
+                    "XIRR": -17.84
+                },
+                {
+                    "ID": 2,
+                    "FROMDATE": "2019-01-20T00:00:00",
+                    "TODATE": "2019-02-19T00:00:00",
+                    "PERIOD_IN_MONTHS": "1M",
+                    "XIRR": -25.19
+                },
+                {
+                    "ID": 3,
+                    "FROMDATE": "2018-11-20T00:00:00",
+                    "TODATE": "2019-02-19T00:00:00",
+                    "PERIOD_IN_MONTHS": "3M",
+                    "XIRR": -4.64
+                },
+                {
+                    "ID": 4,
+                    "FROMDATE": "2018-08-20T00:00:00",
+                    "TODATE": "2019-02-19T00:00:00",
+                    "PERIOD_IN_MONTHS": "6M",
+                    "XIRR": -7.02
+                },
+                {
+                    "ID": 5,
+                    "FROMDATE": "2018-02-20T00:00:00",
+                    "TODATE": "2019-02-19T00:00:00",
+                    "PERIOD_IN_MONTHS": "1Y",
+                    "XIRR": 0.08
+                },
+                {
+                    "ID": 6,
+                    "FROMDATE": "2017-02-20T00:00:00",
+                    "TODATE": "2019-02-19T00:00:00",
+                    "PERIOD_IN_MONTHS": "2Y",
+                    "XIRR": 4.76
+                },
+                {
+                    "ID": 7,
+                    "FROMDATE": "2016-02-20T00:00:00",
+                    "TODATE": "2019-02-19T00:00:00",
+                    "PERIOD_IN_MONTHS": "3Y",
+                    "XIRR": 8.72
+                },
+                {
+                    "ID": 8,
+                    "FROMDATE": "2014-02-20T00:00:00",
+                    "TODATE": "2019-02-19T00:00:00",
+                    "PERIOD_IN_MONTHS": "5Y",
+                    "XIRR": 9.52
+                },
+                {
+                    "ID": 9,
+                    "FROMDATE": "2002-07-19T00:00:00",
+                    "TODATE": "2019-02-19T00:00:00",
+                    "PERIOD_IN_MONTHS": "Since Inception",
+                    "XIRR": 8.79
+                }
+            ],
+            "Table1": [
+                {
+                    "ID": 1,
+                    "FROMDATE": "2019-01-01T00:00:00",
+                    "TODATE": "2019-02-19T00:00:00",
+                    "PERIOD_IN_MONTHS": "YTD",
+                    "XIRR": 3.96
+                },
+                {
+                    "ID": 2,
+                    "FROMDATE": "2019-01-20T00:00:00",
+                    "TODATE": "2019-02-19T00:00:00",
+                    "PERIOD_IN_MONTHS": "1M",
+                    "XIRR": 4.03
+                },
+                {
+                    "ID": 3,
+                    "FROMDATE": "2018-11-20T00:00:00",
+                    "TODATE": "2019-02-19T00:00:00",
+                    "PERIOD_IN_MONTHS": "3M",
+                    "XIRR": 3.65
+                },
+                {
+                    "ID": 4,
+                    "FROMDATE": "2018-08-20T00:00:00",
+                    "TODATE": "2019-02-19T00:00:00",
+                    "PERIOD_IN_MONTHS": "6M",
+                    "XIRR": 3.38
+                },
+                {
+                    "ID": 5,
+                    "FROMDATE": "2018-02-20T00:00:00",
+                    "TODATE": "2019-02-19T00:00:00",
+                    "PERIOD_IN_MONTHS": "1Y",
+                    "XIRR": 4.03
+                },
+                {
+                    "ID": 6,
+                    "FROMDATE": "2017-02-20T00:00:00",
+                    "TODATE": "2019-02-19T00:00:00",
+                    "PERIOD_IN_MONTHS": "2Y",
+                    "XIRR": 5.32
+                },
+                {
+                    "ID": 7,
+                    "FROMDATE": "2016-02-20T00:00:00",
+                    "TODATE": "2019-02-19T00:00:00",
+                    "PERIOD_IN_MONTHS": "3Y",
+                    "XIRR": 6.58
+                },
+                {
+                    "ID": 8,
+                    "FROMDATE": "2014-02-20T00:00:00",
+                    "TODATE": "2019-02-19T00:00:00",
+                    "PERIOD_IN_MONTHS": "5Y",
+                    "XIRR": 7.23
+                },
+                {
+                    "ID": 9,
+                    "FROMDATE": "2002-07-19T00:00:00",
+                    "TODATE": "2019-02-19T00:00:00",
+                    "PERIOD_IN_MONTHS": "Since Inception",
+                    "XIRR": 8.29
+                }
+            ]
+        }
+    },
+    "Page 6": {
+        "DistributionWisePerformance.txt": {
+            "Table": [
+                {
+                    "DISTRIBUTOR_NAME": "Ask Wealth Advisors",
+                    "WEIGHT": 3.86,
+                    "CONTRIBUTION": 6.4
+                },
+                {
+                    "DISTRIBUTOR_NAME": "Citibank",
+                    "WEIGHT": 20.62,
+                    "CONTRIBUTION": 10.77
+                },
+                {
+                    "DISTRIBUTOR_NAME": "Deutsche Bank",
+                    "WEIGHT": 7.09,
+                    "CONTRIBUTION": 7.95
+                },
+                {
+                    "DISTRIBUTOR_NAME": "Direct",
+                    "WEIGHT": 26.1,
+                    "CONTRIBUTION": 3.43
+                },
+                {
+                    "DISTRIBUTOR_NAME": "Hariharan",
+                    "WEIGHT": 1.64,
+                    "CONTRIBUTION": 4.63
+                },
+                {
+                    "DISTRIBUTOR_NAME": "ICICI Bank",
+                    "WEIGHT": 31.5,
+                    "CONTRIBUTION": 10.22
+                },
+                {
+                    "DISTRIBUTOR_NAME": "Jacob",
+                    "WEIGHT": 1.29,
+                    "CONTRIBUTION": 4.33
+                },
+                {
+                    "DISTRIBUTOR_NAME": "Kotak ARN 1390",
+                    "WEIGHT": 7.89,
+                    "CONTRIBUTION": 6.02
+                }
+            ],
+            "Table1": [
+                {
+                    "FAMILY_ID": 16382,
+                    "Name": "Direct",
+                    "Weight": 15.01,
+                    "Current_Value": 210.87,
+                    "Invested_Value": 234.76,
+                    "Gain": 23.89,
+                    "XIRR": 8.33
+                },
+                {
+                    "FAMILY_ID": 16382,
+                    "Name": "Ask Wealth Advisors",
+                    "Weight": 0.78,
+                    "Current_Value": 10.91,
+                    "Invested_Value": 12.19,
+                    "Gain": 1.28,
+                    "XIRR": 7.81
+                },
+                {
+                    "FAMILY_ID": 16382,
+                    "Name": "Kotak ARN 1390",
+                    "Weight": 7.42,
+                    "Current_Value": 110.63,
+                    "Invested_Value": 116.03,
+                    "Gain": 5.41,
+                    "XIRR": 6.86
+                },
+                {
+                    "FAMILY_ID": 16382,
+                    "Name": "Hariharan",
+                    "Weight": 1,
+                    "Current_Value": 13.25,
+                    "Invested_Value": 15.58,
+                    "Gain": 2.32,
+                    "XIRR": 7.19
+                },
+                {
+                    "FAMILY_ID": 16382,
+                    "Name": "Jacob",
+                    "Weight": 1.27,
+                    "Current_Value": 16,
+                    "Invested_Value": 19.93,
+                    "Gain": 3.93,
+                    "XIRR": 6.88
+                },
+                {
+                    "FAMILY_ID": 16382,
+                    "Name": "Citibank",
+                    "Weight": 19.6,
+                    "Current_Value": 244.36,
+                    "Invested_Value": 306.57,
+                    "Gain": 62.21,
+                    "XIRR": 7.73
+                },
+                {
+                    "FAMILY_ID": 16382,
+                    "Name": "Deutsche Bank",
+                    "Weight": 10.63,
+                    "Current_Value": 155.21,
+                    "Invested_Value": 166.21,
+                    "Gain": 11,
+                    "XIRR": 6.86
+                },
+                {
+                    "FAMILY_ID": 16382,
+                    "Name": "ICICI Bank",
+                    "Weight": 44.29,
+                    "Current_Value": 654.53,
+                    "Invested_Value": 692.8,
+                    "Gain": 38.27,
+                    "XIRR": 7.37
+                }
+            ],
+            "Table2": [
+                {
+                    "FAMILY_ID": 16382,
+                    "Name": "Direct",
+                    "Weight": 28.82,
+                    "Current_Value": 577.89,
+                    "Invested_Value": 615.03,
+                    "Gain": 38.22,
+                    "XIRR": 2.67
+                },
+                {
+                    "FAMILY_ID": 16382,
+                    "Name": "Citibank",
+                    "Weight": 24.53,
+                    "Current_Value": 524.71,
+                    "Invested_Value": 523.48,
+                    "Gain": -1.23,
+                    "XIRR": 12.62
+                },
+                {
+                    "FAMILY_ID": 16382,
+                    "Name": "ICICI Bank",
+                    "Weight": 25.53,
+                    "Current_Value": 498.29,
+                    "Invested_Value": 544.89,
+                    "Gain": 46.6,
+                    "XIRR": 12.95
+                },
+                {
+                    "FAMILY_ID": 16382,
+                    "Name": "Kotak ARN 1390",
+                    "Weight": 8.64,
+                    "Current_Value": 203.12,
+                    "Invested_Value": 184.49,
+                    "Gain": -14.82,
+                    "XIRR": 5.5
+                },
+                {
+                    "FAMILY_ID": 16382,
+                    "Name": "Deutsche Bank",
+                    "Weight": 5.2,
+                    "Current_Value": 114.59,
+                    "Invested_Value": 110.99,
+                    "Gain": -3.61,
+                    "XIRR": 9.61
+                },
+                {
+                    "FAMILY_ID": 16382,
+                    "Name": "Ask Wealth Advisors",
+                    "Weight": 3.62,
+                    "Current_Value": 76.5,
+                    "Invested_Value": 77.2,
+                    "Gain": 1.69,
+                    "XIRR": 7.55
+                },
+                {
+                    "FAMILY_ID": 16382,
+                    "Name": "Hariharan",
+                    "Weight": 2.38,
+                    "Current_Value": 48.53,
+                    "Invested_Value": 50.82,
+                    "Gain": 2.3,
+                    "XIRR": 2.6
+                },
+                {
+                    "FAMILY_ID": 16382,
+                    "Name": "Jacob",
+                    "Weight": 1.28,
+                    "Current_Value": 27.57,
+                    "Invested_Value": 27.26,
+                    "Gain": -0.31,
+                    "XIRR": -0.82
+                }
+            ]
+        },
+        "PortfolioTrend.txt": {
+            "Table": [
+                {
+                    "DATE": "2018-02-28T00:00:00",
+                    "Portfolio": 3882.14
+                },
+                {
+                    "DATE": "2018-03-31T00:00:00",
+                    "Portfolio": 3823.08
+                },
+                {
+                    "DATE": "2018-04-30T00:00:00",
+                    "Portfolio": 3902.98
+                },
+                {
+                    "DATE": "2018-05-31T00:00:00",
+                    "Portfolio": 3881.58
+                },
+                {
+                    "DATE": "2018-06-30T00:00:00",
+                    "Portfolio": 4042.01
+                },
+                {
+                    "DATE": "2018-07-31T00:00:00",
+                    "Portfolio": 4133.51
+                },
+                {
+                    "DATE": "2018-08-31T00:00:00",
+                    "Portfolio": 4151.32
+                },
+                {
+                    "DATE": "2018-09-30T00:00:00",
+                    "Portfolio": 3958.07
+                },
+                {
+                    "DATE": "2018-10-31T00:00:00",
+                    "Portfolio": 4060.9
+                },
+                {
+                    "DATE": "2018-11-30T00:00:00",
+                    "Portfolio": 4092.75
+                },
+                {
+                    "DATE": "2018-12-31T00:00:00",
+                    "Portfolio": 4093.31
+                },
+                {
+                    "DATE": "2019-01-31T00:00:00",
+                    "Portfolio": 4058.39
+                },
+                {
+                    "DATE": "2019-02-19T00:00:00",
+                    "Portfolio": 4039.17
+                }
+            ],
+            "Table1": [
+                {
+                    "MP_DATE": "2018-02-28T00:00:00",
+                    "Portfolio": 3882.14
+                },
+                {
+                    "MP_DATE": "2018-03-31T00:00:00",
+                    "Portfolio": 3822.29
+                },
+                {
+                    "MP_DATE": "2018-04-30T00:00:00",
+                    "Portfolio": 3903.39
+                },
+                {
+                    "MP_DATE": "2018-05-31T00:00:00",
+                    "Portfolio": 3880.34
+                },
+                {
+                    "MP_DATE": "2018-06-30T00:00:00",
+                    "Portfolio": 4052.28
+                },
+                {
+                    "MP_DATE": "2018-07-31T00:00:00",
+                    "Portfolio": 4151.54
+                },
+                {
+                    "MP_DATE": "2018-08-31T00:00:00",
+                    "Portfolio": 4168.93
+                },
+                {
+                    "MP_DATE": "2018-09-30T00:00:00",
+                    "Portfolio": 3984.49
+                },
+                {
+                    "MP_DATE": "2018-10-31T00:00:00",
+                    "Portfolio": 4063.48
+                },
+                {
+                    "MP_DATE": "2018-11-30T00:00:00",
+                    "Portfolio": 4113.33
+                },
+                {
+                    "MP_DATE": "2018-12-31T00:00:00",
+                    "Portfolio": 4072.83
+                },
+                {
+                    "MP_DATE": "2019-01-31T00:00:00",
+                    "Portfolio": 4101.38
+                },
+                {
+                    "MP_DATE": "2019-02-19T00:00:00",
+                    "Portfolio": 4039.17
+                }
+            ]
+        }
+    },
+    "Page 7 & 8": {
+        "PortfolioSummaryAnalysis(Detailed Performance Analysis).txt": {
+            "Table": [
+                {
+                    "Asset_Class": "Equity",
+                    "Product_Name": null,
+                    "Latest_Values": 2134.15,
+                    "Weight": 52.83,
+                    "Portfolio_Return": 10.05,
+                    "Benchmark_Return": 9.86,
+                    "Portfolio_Cont": 6.57,
+                    "Benchmark_Cont": 4.31,
+                    "Flag": "1"
+                },
+                {
+                    "Asset_Class": "Equity",
+                    "Product_Name": "Mutual Funds",
+                    "Latest_Values": 1631.9,
+                    "Weight": 40.4,
+                    "Portfolio_Return": 12.13,
+                    "Benchmark_Return": 10.62,
+                    "Portfolio_Cont": 6.17,
+                    "Benchmark_Cont": 2.69,
+                    "Flag": "0"
+                },
+                {
+                    "Asset_Class": "Equity",
+                    "Product_Name": "Direct Equity",
+                    "Latest_Values": 313.51,
+                    "Weight": 7.76,
+                    "Portfolio_Return": 3.71,
+                    "Benchmark_Return": 4.82,
+                    "Portfolio_Cont": 0.44,
+                    "Benchmark_Cont": 0.91,
+                    "Flag": "0"
+                },
+                {
+                    "Asset_Class": "Equity",
+                    "Product_Name": "PMS",
+                    "Latest_Values": 120.39,
+                    "Weight": 2.98,
+                    "Portfolio_Return": -9.43,
+                    "Benchmark_Return": 53.42,
+                    "Portfolio_Cont": -0.13,
+                    "Benchmark_Cont": 0.46,
+                    "Flag": "0"
+                },
+                {
+                    "Asset_Class": "Equity",
+                    "Product_Name": "Alternate Equity",
+                    "Latest_Values": 63.33,
+                    "Weight": 1.56,
+                    "Portfolio_Return": 4.15,
+                    "Benchmark_Return": 4.15,
+                    "Portfolio_Cont": 0.02,
+                    "Benchmark_Cont": 0.22,
+                    "Flag": "0"
+                },
+                {
+                    "Asset_Class": "Equity",
+                    "Product_Name": "AIF",
+                    "Latest_Values": 5,
+                    "Weight": 0.12,
+                    "Portfolio_Return": 0.23,
+                    "Benchmark_Return": 0.23,
+                    "Portfolio_Cont": 0,
+                    "Benchmark_Cont": 0.02,
+                    "Flag": "0"
+                },
+                {
+                    "Asset_Class": "Equity",
+                    "Product_Name": "REITS/InvITs",
+                    "Latest_Values": 0,
+                    "Weight": 0,
+                    "Portfolio_Return": 11.72,
+                    "Benchmark_Return": 11.72,
+                    "Portfolio_Cont": 0.06,
+                    "Benchmark_Cont": -0.03,
+                    "Flag": "0"
+                },
+                {
+                    "Asset_Class": "Fixed Income",
+                    "Product_Name": null,
+                    "Latest_Values": 1564.07,
+                    "Weight": 38.72,
+                    "Portfolio_Return": 7.45,
+                    "Benchmark_Return": 7.85,
+                    "Portfolio_Cont": 3.49,
+                    "Benchmark_Cont": 3.86,
+                    "Flag": "1"
+                },
+                {
+                    "Asset_Class": "Fixed Income",
+                    "Product_Name": "Mutual Funds",
+                    "Latest_Values": 1366.42,
+                    "Weight": 33.82,
+                    "Portfolio_Return": 7.32,
+                    "Benchmark_Return": 7.73,
+                    "Portfolio_Cont": 3.11,
+                    "Benchmark_Cont": 3.34,
+                    "Flag": "0"
+                },
+                {
+                    "Asset_Class": "Fixed Income",
+                    "Product_Name": "High Yield Debt",
+                    "Latest_Values": 76.49,
+                    "Weight": 1.89,
+                    "Portfolio_Return": 13.28,
+                    "Benchmark_Return": 13.28,
+                    "Portfolio_Cont": 0.12,
+                    "Benchmark_Cont": 0.22,
+                    "Flag": "0"
+                },
+                {
+                    "Asset_Class": "Fixed Income",
+                    "Product_Name": "Bonds / Debentures",
+                    "Latest_Values": 72.94,
+                    "Weight": 1.8,
+                    "Portfolio_Return": 8.17,
+                    "Benchmark_Return": 8.56,
+                    "Portfolio_Cont": 0.24,
+                    "Benchmark_Cont": 0.14,
+                    "Flag": "0"
+                },
+                {
+                    "Asset_Class": "Fixed Income",
+                    "Product_Name": "Arbitrage Funds",
+                    "Latest_Values": 20.3,
+                    "Weight": 0.5,
+                    "Portfolio_Return": 5.22,
+                    "Benchmark_Return": 4.27,
+                    "Portfolio_Cont": 0,
+                    "Benchmark_Cont": 0.07,
+                    "Flag": "0"
+                },
+                {
+                    "Asset_Class": "Fixed Income",
+                    "Product_Name": "Preference Shares",
+                    "Latest_Values": 20,
+                    "Weight": 0.49,
+                    "Portfolio_Return": 4.81,
+                    "Benchmark_Return": 4.81,
+                    "Portfolio_Cont": 0.02,
+                    "Benchmark_Cont": 0.06,
+                    "Flag": "0"
+                },
+                {
+                    "Asset_Class": "Fixed Income",
+                    "Product_Name": "Structured Product",
+                    "Latest_Values": 4.91,
+                    "Weight": 0.12,
+                    "Portfolio_Return": 0,
+                    "Benchmark_Return": 0,
+                    "Portfolio_Cont": 0,
+                    "Benchmark_Cont": 0,
+                    "Flag": "0"
+                },
+                {
+                    "Asset_Class": "Fixed Income",
+                    "Product_Name": "Fixed Deposit",
+                    "Latest_Values": 2.97,
+                    "Weight": 0.07,
+                    "Portfolio_Return": 7.09,
+                    "Benchmark_Return": 7.09,
+                    "Portfolio_Cont": 0,
+                    "Benchmark_Cont": 0.01,
+                    "Flag": "0"
+                },
+                {
+                    "Asset_Class": "Alternate Assets",
+                    "Product_Name": null,
+                    "Latest_Values": 276.53,
+                    "Weight": 6.84,
+                    "Portfolio_Return": 6,
+                    "Benchmark_Return": 6,
+                    "Portfolio_Cont": 0.6,
+                    "Benchmark_Cont": 0.69,
+                    "Flag": "1"
+                },
+                {
+                    "Asset_Class": "Alternate Assets",
+                    "Product_Name": "PE/VC Fund",
+                    "Latest_Values": 276.53,
+                    "Weight": 6.84,
+                    "Portfolio_Return": 6,
+                    "Benchmark_Return": 6,
+                    "Portfolio_Cont": 0.6,
+                    "Benchmark_Cont": 0.69,
+                    "Flag": "0"
+                },
+                {
+                    "Asset_Class": "Cash & Equivalents",
+                    "Product_Name": null,
+                    "Latest_Values": 61.79,
+                    "Weight": 1.52,
+                    "Portfolio_Return": 0,
+                    "Benchmark_Return": -0.24,
+                    "Portfolio_Cont": 0,
+                    "Benchmark_Cont": 0.23,
+                    "Flag": "1"
+                },
+                {
+                    "Asset_Class": "Cash & Equivalents",
+                    "Product_Name": "Cash and Others",
+                    "Latest_Values": 61.79,
+                    "Weight": 1.52,
+                    "Portfolio_Return": 0,
+                    "Benchmark_Return": -0.24,
+                    "Portfolio_Cont": 0,
+                    "Benchmark_Cont": 0.23,
+                    "Flag": "0"
+                },
+                {
+                    "Asset_Class": "Other Assets",
+                    "Product_Name": null,
+                    "Latest_Values": 2.6,
+                    "Weight": 0.06,
+                    "Portfolio_Return": 8.92,
+                    "Benchmark_Return": 8.92,
+                    "Portfolio_Cont": 0.01,
+                    "Benchmark_Cont": 0,
+                    "Flag": "1"
+                },
+                {
+                    "Asset_Class": "Other Assets",
+                    "Product_Name": "Insurance",
+                    "Latest_Values": 2.6,
+                    "Weight": 0.06,
+                    "Portfolio_Return": 8.92,
+                    "Benchmark_Return": 8.92,
+                    "Portfolio_Cont": 0.01,
+                    "Benchmark_Cont": 0,
+                    "Flag": "0"
+                },
+                {
+                    "Asset_Class": "Hybrid",
+                    "Product_Name": null,
+                    "Latest_Values": 0,
+                    "Weight": 0,
+                    "Portfolio_Return": 11.93,
+                    "Benchmark_Return": 11.25,
+                    "Portfolio_Cont": 0.6,
+                    "Benchmark_Cont": -0.31,
+                    "Flag": "1"
+                },
+                {
+                    "Asset_Class": "Hybrid",
+                    "Product_Name": "Mutual Funds",
+                    "Latest_Values": 0,
+                    "Weight": 0,
+                    "Portfolio_Return": 11.93,
+                    "Benchmark_Return": 11.25,
+                    "Portfolio_Cont": 0.6,
+                    "Benchmark_Cont": -0.31,
+                    "Flag": "0"
+                }
+            ],
+            "Table1": [
+                {
+                    "Latest_Values": 4039.16,
+                    "Weight": "100.00",
+                    "Portfolio_Return": 8.79,
+                    "Benchmark_Return": 8.29
+                }
+            ]
+        }
+    },
+    "Page 9": {
+        "DebtPortfolio(ProductWiseExposure).txt": {
+            "Table": [
+                {
+                    "label": "Mutual Funds",
+                    "weight": 78.74,
+                    "color": "#646e7d"
+                },
+                {
+                    "label": "Close Ended Funds",
+                    "weight": 8.63,
+                    "color": "#211f1f"
+                },
+                {
+                    "label": "High Yield Debt",
+                    "weight": 4.89,
+                    "color": "#e3d9c6"
+                },
+                {
+                    "label": "Bonds / Debentures",
+                    "weight": 4.66,
+                    "color": "#9fb2c7"
+                },
+                {
+                    "label": "Arbitrage Funds",
+                    "weight": 1.3,
+                    "color": "#646e7d"
+                },
+                {
+                    "label": "Preference Shares",
+                    "weight": 1.28,
+                    "color": "#e3c8cc"
+                },
+                {
+                    "label": "Structured Product",
+                    "weight": 0.31,
+                    "color": "#646e7d"
+                },
+                {
+                    "label": "Fixed Deposit",
+                    "weight": 0.19,
+                    "color": "#d5e1b6"
+                }
+            ]
+        },
+        "IssueWiseExposure.txt": {
+            "Table": [
+                {
+                    "Issuer": "Power Finance Corporation Limited",
+                    "Weight": 8.87,
+                    "Colour": "#9fb2c7"
+                },
+                {
+                    "Issuer": "Rural Electrification Corporation Limited",
+                    "Weight": 4.38,
+                    "Colour": "#9fb2c7"
+                },
+                {
+                    "Issuer": "Government of India",
+                    "Weight": 4.32,
+                    "Colour": "#9fb2c7"
+                },
+                {
+                    "Issuer": "Housing Development Finance Corporation Limited",
+                    "Weight": 3.78,
+                    "Colour": "#9fb2c7"
+                },
+                {
+                    "Issuer": "LIC Housing Finance Limited",
+                    "Weight": 2.85,
+                    "Colour": "#9fb2c7"
+                },
+                {
+                    "Issuer": "ONGC Petro Additions Ltd.",
+                    "Weight": 2.16,
+                    "Colour": "#9fb2c7"
+                },
+                {
+                    "Issuer": "Indiabulls Housing Finance Ltd.",
+                    "Weight": 2.14,
+                    "Colour": "#9fb2c7"
+                },
+                {
+                    "Issuer": "Adani Infra (India) Ltd.",
+                    "Weight": 2.03,
+                    "Colour": "#9fb2c7"
+                },
+                {
+                    "Issuer": "National Bank For Agriculture And Rural Development",
+                    "Weight": 1.99,
+                    "Colour": "#9fb2c7"
+                },
+                {
+                    "Issuer": "Small Industries Development Bank of India",
+                    "Weight": 1.93,
+                    "Colour": "#9fb2c7"
+                }
+            ]
+        }
+    },
+    "final-page--disclaimer.txt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\r\n",
+    "final-page--important-note.txt": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\r\n",
+    "report-config.json": {
+        "frontPageTitle": "Ranawat Family",
+        "day-month-year": false
+    }
+}
