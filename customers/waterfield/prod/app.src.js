@@ -1351,12 +1351,18 @@
                 if (cix === 0) {
                     newCell.alignment = 'left';
                 } else {
-                    newCell.alignment = 'left';
+                    newCell.alignment = 'right';
                 }
                 if (metaRows[ix].bold) {
                     newCell.bold = true;
                     newCell.fillColor = '#eee';
                 }
+                // if (metaRows[ix].total) {
+                //     newCell.bold = true;
+                //     newCell.fillColor = '#eee';
+                //     newCell.paddingTop = '10px';
+                //     newCell.paddingBottom = '10px';
+                // }
 
                 newBody[ix].push(newCell);
                 if (ix === 0) {
@@ -1792,7 +1798,7 @@
         methods.composeSection16();
         methods.composeSection17();
         methods.composeSection_glossaryOfTerms();
-        // methods.composeSectionFinal();
+        //methods.composeSectionFinal();
         ddDef.content = ddCont;
         // \\//  builds content
     }
@@ -1814,7 +1820,8 @@
             var month = '00' + (tiimeStamp.getMonth() + 1);
             month = month.substring(month.length - 2, month.length);
             var fullYear = tiimeStamp.getFullYear();
-            ns.nheap.dateStampStr = day + '.' + month + '.' + fullYear;
+            // ns.nheap.dateStampStr = day + '.' + month + '.' + fullYear;
+            ns.nheap.dateStampStr = day + '/' + month + '/' + fullYear;
         }
         // \\// gets current date
 
@@ -2284,13 +2291,13 @@
             width: 210,
             table: {
                 headerRows: 1,
-                heights: 50,
+                heights: 100,
                 dontBreakRows: true,
                 widths: widths,
                 body: [[
                     {
                         text: cell1,
-                        fontSize: 30,
+                        fontSize: 25,
                         alignment: 'right',
                         //.disable this line to see space distribution
                         //.for cells
@@ -2299,9 +2306,9 @@
                         color: 'black'
                     },
                     {
-                        text: "Cr",
+                        text: "Crs.",
                         border: [false, false, false, false],
-                        fontSize: 30,
+                        fontSize: 20,
                         alignment: 'left',
                         color: 'grey'
                     }
@@ -2365,7 +2372,6 @@
                 dataTable: table,
                 widgetDef: widgetDef,
                 fieldName: fieldDef.fieldName,
-
                 options:
                 {
                     "chart": {
@@ -2414,7 +2420,7 @@
                         text: widgetDef.fieldDefs[fix].caption,
                         style: {
                             fontWeight: '400',
-                            fontSize: '60px',
+                            fontSize: '40px',
                             color: '#aaa'
                         }
                     },
@@ -2532,9 +2538,9 @@
             columns:
                 [
                     { "Family_Member": { "caption": "Name" } },
-                    { "Invested_Value": { "caption": "Invested Value (Crs)" } },
-                    { "Current_Value": { "caption": "Current Value (Crs)" } },
-                    { "Gain_Loss": { "caption": "Gain (Crs)", "green mark": true } },
+                    { "Invested_Value": { "caption": "Invested Value (Crs.)" } },
+                    { "Current_Value": { "caption": "Current Value (Crs.)" } },
+                    { "Gain_Loss": { "caption": "Gain (Crs.)", "green mark": true } },
                     { "IRR": { "caption": "XIRR (%)", "green mark": true } },
                     { "Benchmark_IRR": { "caption": "BM XIRR (%)", "green mark": true } }
                 ]
@@ -2683,6 +2689,9 @@
                     title: {
                         text: "Weight (%)",
                         enabled: true
+                    },
+                    stackLabels: {
+                        enabled: true
                     }
                 }],
                 plotOptions: {
@@ -2791,7 +2800,7 @@
                 [
                     { "Scheme_Name": { "caption": "Security" } },
                     { "Asset_Class": { "caption": "Asset Type" } },
-                    { "Weight": { "caption": "Weight" } },
+                    { "Weight": { "caption": "Weight (%)" } },
                 ]
         });
         methods.tableTpl_2_content({
@@ -2805,7 +2814,7 @@
                 [
                     { "EQUITY": { "caption": "Security" } },
                     { "sector_name": { "caption": "Product Type" } },
-                    { "CONTRIBUTION": { "caption": "XIRR" } },
+                    { "CONTRIBUTION": { "caption": "XIRR (%)" } },
                 ]
         });
     }
@@ -2915,7 +2924,7 @@
 
 
 
-        var seriesColors = ['#cee4e8', '#646e7d'];
+        var seriesColors = ['#afdbdb', '#27527c'];
         var xAxis_categories = table.map(row => row.PERIOD_IN_MONTHS);
         var series_data = table.map((row, rix) => [row['ID'], row['XIRR']]);
         var series1_data = table1.map((row, rix) => [row['ID'], row['XIRR']]);
@@ -3499,10 +3508,10 @@
             columns:
                 [
                     { "Product_Name": { "caption": "Asset Class" } },
-                    { "Latest_Values": { "caption": "Latest Values (Crs)" } },
-                    { "Weight": { "caption": "Weight" } },
-                    { "Portfolio_Return": { "caption": "Portfolio Return" } },
-                    { "Benchmark_Return": { "caption": "Benchmark Return" } }
+                    { "Latest_Values": { "caption": "Latest Values (Crs.)" } },
+                    { "Weight": { "caption": "Weight (%)" } },
+                    { "Portfolio_Return": { "caption": "Portfolio Return (%)" } },
+                    { "Benchmark_Return": { "caption": "Benchmark Return (%)" } }
                 ]
         });
     }
@@ -3734,7 +3743,7 @@
             ["Page 9"]
             ["IssueWiseExposure.txt"]
             ["Table"],
-            caption: "Issue Wise Exposure",
+            caption: "Issuer Wise Exposure",
             widthPercent: 70,
             cellHeight: 11,
             cellPaddingTop: 4,
@@ -3743,7 +3752,7 @@
             columns:
                 [
                     { "Issuer": { "caption": "Issuer" } },
-                    { "Weight": { "caption": "Weight" } }
+                    { "Weight": { "caption": "Weight (%)" } }
                 ]
         });
     }
@@ -4089,7 +4098,7 @@
                     */
                     { "FIXEDINCOME": { "caption": "Security" } },
                     { "classification": { "caption": "Type" } },
-                    { "CONTRIBUTION": { "caption": "XIRR" } },
+                    { "CONTRIBUTION": { "caption": "XIRR (%)" } },
                 ]
         });
         methods.tableTpl_2_content({
@@ -4113,7 +4122,7 @@
                     */
                     { "Name": { "caption": "Security" } },
                     { "Category": { "caption": "Type" } },
-                    { "Weight": { "caption": "Weight" } },
+                    { "Weight": { "caption": "Weight (%)" } },
                 ]
         });
     }
@@ -4181,11 +4190,11 @@
                     */
 
                     { "Name": { "caption": "Name" } },
-                    { "Weight": { "caption": "Weight" } },
-                    { "Current_Value": { "caption": "Current Value" } },
-                    { "Invested_Value": { "caption": "Invested Value" } },
-                    { "Gain": { "caption": "Gain" } },
-                    { "XIRR": { "caption": "XIRR" } }
+                    { "Weight": { "caption": "Weight (%)" } },
+                    { "Current_Value": { "caption": "Current Value (Crs.)" } },
+                    { "Invested_Value": { "caption": "Invested Value (Crs.)" } },
+                    { "Gain": { "caption": "Gain (Crs.)" } },
+                    { "XIRR": { "caption": "XIRR (%)" } }
                 ]
         });
     }
@@ -4946,11 +4955,11 @@ ccc( xAxis_categories )
                          "XIRR":2.67
                     */
                     { "Name": { "caption": "Name" } },
-                    { "Weight": { "caption": "Weight" } },
-                    { "Invested_Value": { "caption": "Invested Value" } },
-                    { "Current_Value": { "caption": "Current Value" } },
-                    { "Gain": { "caption": "Gain" } },
-                    { "XIRR": { "caption": "XIRR" } }
+                    { "Weight": { "caption": "Weight (%)" } },
+                    { "Invested_Value": { "caption": "Invested Value (Crs.)" } },
+                    { "Current_Value": { "caption": "Current Value (Crs.)" } },
+                    { "Gain": { "caption": "Gain (Crs.)" } },
+                    { "XIRR": { "caption": "XIRR (%)" } }
                 ]
         });
     }
@@ -5313,83 +5322,83 @@ ccc( xAxis_categories )
 
 })();
 
-(function () {
-    var ns = window.b$l = window.b$l || {};
-    var $$ = ns.$$;
-    var methods = ns.methods = ns.methods || {};
+// (function () {
+//     var ns = window.b$l = window.b$l || {};
+//     var $$ = ns.$$;
+//     var methods = ns.methods = ns.methods || {};
 
-    var nheap = ns.nheap = ns.nheap || {};
-    var imagesRack = nheap.imagesRack = nheap.imagesRack || {};
-    var ddCont = nheap.ddCont = nheap.ddCont || [];
-    var contCharts = nheap.contCharts = nheap.contCharts || [];
-    var ccc = window.console.log;
+//     var nheap = ns.nheap = ns.nheap || {};
+//     var imagesRack = nheap.imagesRack = nheap.imagesRack || {};
+//     var ddCont = nheap.ddCont = nheap.ddCont || [];
+//     var contCharts = nheap.contCharts = nheap.contCharts || [];
+//     var ccc = window.console.log;
 
-    methods.composeSectionFinal = composeSectionFinal;
-    return;
-    //00000000000000000000000000000000000000000000000000000000000000000000000
-
-
+//     methods.composeSectionFinal = composeSectionFinal;
+//     return;
+//     //00000000000000000000000000000000000000000000000000000000000000000000000
 
 
 
-    ///==============================        
-    /// composer
-    ///==============================
-    function composeSectionFinal() {
-        addHeader();
-
-        ddCont.push({
-            text: 'Important Note:',
-            margin: [0, 200, 0, 0],
-            bold: true,
-            fontSize: 16
-        });
-        ddCont.push({
-            text: nheap.content_data['final-page--important-note.txt'],
-            margin: [0, 0, 0, 0],
-            bold: false,
-            fontSize: 16
-        });
-
-        ddCont.push({
-            text: 'Disclaimer:',
-            margin: [0, 15, 0, 0],
-            bold: true,
-            fontSize: 16
-        });
-        ddCont.push({
-            text: nheap.content_data['final-page--disclaimer.txt'],
-            margin: [0, 0, 0, 0],
-            bold: false,
-            fontSize: 16
-        });
-
-        //.outputs assembled chart to html-page nicely formatted
-        //$$.c('pre').to( document.body ).ch(
-        //   $$.div().html( JSON.stringify( contCharts[0].options, null, '    ' )));
-
-        //ddCont[ ddCont.length - 1 ].pageBreak = 'after';
-    }
 
 
-    //==============================        
-    // //\\ header
-    //==============================
-    function addHeader() {
-        ddCont.push({
-            text: "Thank you",
-            //.left marg. may align with chart
-            //.last marg. adds the gab to chart
-            margin: [10, 5, 20, 0],
-            fontSize: 26,
-            color: '#333333',
-            bold: true
-        });
-    }
-    //==============================        
-    // \\// header
-    //==============================
+//     ///==============================        
+//     /// composer
+//     ///==============================
+//     function composeSectionFinal() {
+//         addHeader();
+
+//         ddCont.push({
+//             text: 'Important Note:',
+//             margin: [0, 200, 0, 0],
+//             bold: true,
+//             fontSize: 16
+//         });
+//         ddCont.push({
+//             text: nheap.content_data['final-page--important-note.txt'],
+//             margin: [0, 0, 0, 0],
+//             bold: false,
+//             fontSize: 16
+//         });
+
+//         ddCont.push({
+//             text: 'Disclaimer:',
+//             margin: [0, 15, 0, 0],
+//             bold: true,
+//             fontSize: 16
+//         });
+//         ddCont.push({
+//             text: nheap.content_data['final-page--disclaimer.txt'],
+//             margin: [0, 0, 0, 0],
+//             bold: false,
+//             fontSize: 16
+//         });
+
+//         //.outputs assembled chart to html-page nicely formatted
+//         //$$.c('pre').to( document.body ).ch(
+//         //   $$.div().html( JSON.stringify( contCharts[0].options, null, '    ' )));
+
+//         //ddCont[ ddCont.length - 1 ].pageBreak = 'after';
+//     }
 
 
-})();
+//     //==============================        
+//     // //\\ header
+//     //==============================
+//     function addHeader() {
+//         ddCont.push({
+//             text: "Thank you",
+//             //.left marg. may align with chart
+//             //.last marg. adds the gab to chart
+//             margin: [10, 5, 20, 0],
+//             fontSize: 26,
+//             color: '#333333',
+//             bold: true
+//         });
+//     }
+//     //==============================        
+//     // \\// header
+//     //==============================
+
+
+// })();
 
