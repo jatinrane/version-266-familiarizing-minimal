@@ -3436,6 +3436,10 @@
         ["Page 7 & 8"]
         ["PortfolioSummaryAnalysis(Detailed Performance Analysis).txt"]
         ["Table"];
+        var total = nheap.content_data
+        ["Page 7 & 8"]
+        ["PortfolioSummaryAnalysis(Detailed Performance Analysis).txt"]
+        ["Table1"];
         var fistRow = rows[0];
         var wFlatRow = Array.isArray(fistRow) ? fistRow[1] : fistRow;
         //var emptyCaptions = ns.eachmap( wFlatRow, prop => 'TODO' );
@@ -3461,8 +3465,9 @@
             ,
             fieldsToSummate
         );
+        total[0].Product_Name = 'Total';
         totalsRack[valFld] = 'Total';
-        rows = rows.concat([[{ bold: true }, totalsRack]]);
+        rows = rows.concat([[{ bold: true }, total[0]]]);
         //-----------------------------------------
         // \\// summating totals of totals for each
         //-----------------------------------------
