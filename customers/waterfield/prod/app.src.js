@@ -1357,12 +1357,11 @@
                     newCell.bold = true;
                     newCell.fillColor = '#eee';
                 }
-                // if (metaRows[ix].total) {
-                //     newCell.bold = true;
-                //     newCell.fillColor = '#eee';
-                //     newCell.paddingTop = '10px';
-                //     newCell.paddingBottom = '10px';
-                // }
+                if (metaRows[ix].total) {
+                    newCell.bold = true;
+                    newCell.paddingTop = '10px';
+                    newCell.paddingBottom = '10px';
+                }
 
                 newBody[ix].push(newCell);
                 if (ix === 0) {
@@ -1784,21 +1783,21 @@
         methods.composeSection_table_of_contents();
         methods.composeSection2();
         methods.composeSection3();
-        methods.composeSection4();
         methods.composeSection5();
+        methods.composeSection4();
         methods.composeSection6();
         methods.composeSection7();
-        methods.composeSection9();
         methods.composeSection10();
         methods.composeSection11();
         methods.composeSection12();
+        methods.composeSection9();
         methods.composeSection13();
         methods.composeSection14();
         methods.composeSection15();
         methods.composeSection16();
         methods.composeSection17();
         methods.composeSection_glossaryOfTerms();
-        //methods.composeSectionFinal();
+        methods.composeSectionFinal();
         ddDef.content = ddCont;
         // \\//  builds content
     }
@@ -2084,7 +2083,7 @@
                                     bold: true
                                 },
                                 {
-                                    text: "Family Portfolio Review",
+                                    text: "Portfolio Review",
                                     fontSize: 19
                                 },
                                 {
@@ -2165,7 +2164,6 @@
             });
         ddCont[ddCont.length - 1].pageBreak = 'after';
     }
-
 })();
 
 (function () {
@@ -2191,6 +2189,7 @@
     /// composer
     ///==============================
     function composeSection2() {
+        methods.addTOC("Overall Summary", "")
         addHeader();
         var shift = 210;
         var startX = 60;
@@ -2227,8 +2226,8 @@
 
         var totalsTablesColumns =
             [
-                totalsTable(num2commasStr(totals.CURRENT_VALUE, 2)),
                 totalsTable(num2commasStr(totals.INVESTED_AMOUNT, 2)),
+                totalsTable(num2commasStr(totals.CURRENT_VALUE, 2)),
                 totalsTable(num2commasStr(totals.GAINLOSS, 2))
             ];
         ddCont.push({
@@ -2264,7 +2263,6 @@
         (100 * 2 / ww) + '%'
         ];
         // \\// distributes space
-
 
         return {
             layout: {
@@ -2358,8 +2356,8 @@
             "time": "MONTH_END_DATE",
             "fieldDefs":
                 [
-                    { fieldName: "CURRENT_VALUE", caption: 'Current Value' },
                     { fieldName: "INVESTED_VALUE", caption: 'Invested Value' },
+                    { fieldName: "CURRENT_VALUE", caption: 'Current Value' },
                     { fieldName: "GAIN", caption: 'Gain (' + gainPercent.toFixed(1) + '%)' }
                 ]
         };
@@ -2595,7 +2593,7 @@
 
         buildChart({
             fileName: "Exposure(ProductType).txt",
-            chartCaption: "Exposure (ProductType)",
+            chartCaption: "Exposure (Product Type)",
             yAxisDisabled: true,
             chartType: "column"
         });
@@ -2689,9 +2687,6 @@
                     title: {
                         text: "Weight (%)",
                         enabled: true
-                    },
-                    stackLabels: {
-                        enabled: true
                     }
                 }],
                 plotOptions: {
@@ -2707,7 +2702,16 @@
                         ////rounded column
                         grouping: false,
                         shadow: false,
-                        borderWidth: 0
+                        borderWidth: 0,
+                        dataLabels: {
+                            enabled: true,
+                            formatter: function () {
+                                return Highcharts.numberFormat(this.y, 2) + ' %';
+                            },
+                            // align: 'top',
+                            // x: -20,
+                            // y: -40
+                        }
                     }
                 },
 
@@ -2809,7 +2813,7 @@
             ["Page 4"]
             ["Top10Position.txt"]
             ["Table"],
-            caption: "Top 10 Positions",
+            caption: "Top 10 Performers",
             columns:
                 [
                     { "EQUITY": { "caption": "Security" } },
@@ -3126,8 +3130,6 @@
         }
         );
 
-
-
         if (overrideColumnBottom) {
             ////decorates bottom rounded corners
             var fake_series = table.map((row, rix) => [rix, row['weight'] / 2]);
@@ -3186,6 +3188,11 @@
                     //grouping: false,
                     shadow: false,
                     borderWidth: 0
+                },
+                series: {
+                    dataLabels: {
+                        enabled: true
+                    }
                 }
             },
 
@@ -3550,7 +3557,7 @@
     /// composer
     ///==============================
     function composeSection9() {
-        methods.addTOC("Debt Portfolio", "Exposure")
+        methods.addTOC("", "Analysis")
         addHeader();
         buildTopRoundedChart({
             fileName: "DebtPortfolio(ProductWiseExposure).txt",
@@ -3562,33 +3569,8 @@
         pageTable();
         //ddCont[ ddCont.length - 1 ].alignment = 'left';
         ddCont[ddCont.length - 1].margin = [12, 0, 0, 0];
-        //ddCont[ ddCont.length - 1 ].pageBreak = 'after';
+        ddCont[ddCont.length - 1].pageBreak = 'after';
     }
-
-
-    //==============================        
-    // //\\ header
-    //==============================
-    function addHeader() {
-        ddCont.push(
-            //header: no dice for classic header:
-            {
-                text: "Debt Portfolio / Exposure",
-                //.left marg. may align with chart
-                //.last marg. adds the gab to chart
-                margin: [10, 5, 20, 0],
-                fontSize: 17,
-                color: '#55DDFF',
-                bold: true
-            }
-        );
-    }
-    //==============================        
-    // \\// header
-    //==============================
-
-
-
 
     //==============================        
     // //\\ builds chart
@@ -3687,7 +3669,10 @@
                     dataLabels: {
                         color: nheap.dataLabelsColor,
                         style: { "textOutline": "none" },
-                        enabled: true
+                        enabled: true,
+                        formatter: function () {
+                            return Highcharts.numberFormat(this.y, 2);
+                        }
                     },
                     "data": series_weight
                 }
@@ -3752,7 +3737,8 @@
             cellHeight: 11,
             cellPaddingTop: 4,
             cellPaddingBottom: 4,
-            margin: [200, 0, 0, 0],
+            // margin: [200, 0, 0, 0],
+            margin: [13, 5, 0, 15],
             columns:
                 [
                     { "Issuer": { "caption": "Issuer" } },
@@ -3764,7 +3750,26 @@
     // \\// page table
     //==============================        
 
-
+    //==============================        
+    // //\\ header
+    //==============================
+    function addHeader() {
+        ddCont.push(
+            //header: no dice for classic header:
+            {
+                text: "Debt Portfolio / Analysis",
+                //.left marg. may align with chart
+                //.last marg. adds the gab to chart
+                margin: [10, 5, 20, 0],
+                fontSize: 17,
+                color: '#55DDFF',
+                bold: true
+            }
+        );
+    }
+    //==============================        
+    // \\// header
+    //==============================
 
 })();
 
@@ -3791,7 +3796,8 @@
     /// composer
     ///==============================
     function composeSection10() {
-        //addHeader();
+        methods.addTOC("Debt Portfolio", "Exposure")
+        addHeader();
         buildTopRoundedChart({
             fileName: "RatingWiseAndMaturityExposure.txt",
             chartCaption: "Rating Wise Exposure",
@@ -3827,7 +3833,26 @@
     }
 
 
-
+    //==============================        
+    // //\\ header
+    //==============================
+    function addHeader() {
+        ddCont.push(
+            //header: no dice for classic header:
+            {
+                text: "Debt Portfolio / Exposure",
+                //.left marg. may align with chart
+                //.last marg. adds the gab to chart
+                margin: [10, 5, 20, 0],
+                fontSize: 17,
+                color: '#55DDFF',
+                bold: true
+            }
+        );
+    }
+    //==============================        
+    // \\// header
+    //==============================
 
     //==============================        
     // //\\ builds chart
@@ -4069,7 +4094,6 @@
     /// composer
     ///==============================
     function composeSection11() {
-        methods.addTOC("", "Performance")
         pageTables();
         ddCont[ddCont.length - 1].pageBreak = 'after';
     }
@@ -4161,6 +4185,7 @@
     /// composer
     ///==============================
     function composeSection12() {
+        methods.addTOC("", "Performance")
         addHeader();
         pageTable();
         ddCont[ddCont.length - 1].pageBreak = 'after';
@@ -4876,7 +4901,7 @@ ccc( xAxis_categories )
                 [
                     { "EQUITY": { "caption": "Security" } },
                     { "sector_name": { "caption": "Sector" } },
-                    { "CONTRIBUTION": { "caption": "Contribution" } },
+                    { "CONTRIBUTION": { "caption": "XIRR (%)" } },
                 ]
         });
         methods.tableTpl_2_content({
@@ -4892,7 +4917,7 @@ ccc( xAxis_categories )
                 [
                     { "Name": { "caption": "Security" } },
                     { "Category": { "caption": "Sector" } },
-                    { "Weight": { "caption": "Contribution" } },
+                    { "Weight": { "caption": "XIRR (%)" } },
                 ]
         });
     }
@@ -4960,8 +4985,8 @@ ccc( xAxis_categories )
                     */
                     { "Name": { "caption": "Name" } },
                     { "Weight": { "caption": "Weight (%)" } },
-                    { "Invested_Value": { "caption": "Invested Value (Crs.)" } },
-                    { "Current_Value": { "caption": "Current Value (Crs.)" } },
+                    { "Invested_Value": { "caption": "Current Value (Crs.)" } },
+                    { "Current_Value": { "caption": "Invested Value (Crs.)" } },
                     { "Gain": { "caption": "Gain (Crs.)" } },
                     { "XIRR": { "caption": "XIRR (%)" } }
                 ]
@@ -5326,83 +5351,102 @@ ccc( xAxis_categories )
 
 })();
 
-// (function () {
-//     var ns = window.b$l = window.b$l || {};
-//     var $$ = ns.$$;
-//     var methods = ns.methods = ns.methods || {};
+(function () {
+    var ns = window.b$l = window.b$l || {};
+    var $$ = ns.$$;
+    var methods = ns.methods = ns.methods || {};
 
-//     var nheap = ns.nheap = ns.nheap || {};
-//     var imagesRack = nheap.imagesRack = nheap.imagesRack || {};
-//     var ddCont = nheap.ddCont = nheap.ddCont || [];
-//     var contCharts = nheap.contCharts = nheap.contCharts || [];
-//     var ccc = window.console.log;
+    var nheap = ns.nheap = ns.nheap || {};
+    var imagesRack = nheap.imagesRack = nheap.imagesRack || {};
+    var ddCont = nheap.ddCont = nheap.ddCont || [];
+    var contCharts = nheap.contCharts = nheap.contCharts || [];
+    var ccc = window.console.log;
 
-//     methods.composeSectionFinal = composeSectionFinal;
-//     return;
-//     //00000000000000000000000000000000000000000000000000000000000000000000000
-
-
+    methods.composeSectionFinal = composeSectionFinal;
+    return;
+    //00000000000000000000000000000000000000000000000000000000000000000000000
 
 
 
-//     ///==============================        
-//     /// composer
-//     ///==============================
-//     function composeSectionFinal() {
-//         addHeader();
-
-//         ddCont.push({
-//             text: 'Important Note:',
-//             margin: [0, 200, 0, 0],
-//             bold: true,
-//             fontSize: 16
-//         });
-//         ddCont.push({
-//             text: nheap.content_data['final-page--important-note.txt'],
-//             margin: [0, 0, 0, 0],
-//             bold: false,
-//             fontSize: 16
-//         });
-
-//         ddCont.push({
-//             text: 'Disclaimer:',
-//             margin: [0, 15, 0, 0],
-//             bold: true,
-//             fontSize: 16
-//         });
-//         ddCont.push({
-//             text: nheap.content_data['final-page--disclaimer.txt'],
-//             margin: [0, 0, 0, 0],
-//             bold: false,
-//             fontSize: 16
-//         });
-
-//         //.outputs assembled chart to html-page nicely formatted
-//         //$$.c('pre').to( document.body ).ch(
-//         //   $$.div().html( JSON.stringify( contCharts[0].options, null, '    ' )));
-
-//         //ddCont[ ddCont.length - 1 ].pageBreak = 'after';
-//     }
 
 
-//     //==============================        
-//     // //\\ header
-//     //==============================
-//     function addHeader() {
-//         ddCont.push({
-//             text: "Thank you",
-//             //.left marg. may align with chart
-//             //.last marg. adds the gab to chart
-//             margin: [10, 5, 20, 0],
-//             fontSize: 26,
-//             color: '#333333',
-//             bold: true
-//         });
-//     }
-//     //==============================        
-//     // \\// header
-//     //==============================
+    ///==============================        
+    /// composer
+    ///==============================
+    function composeSectionFinal() {
+        // addHeader();
+
+        // ddCont.push({
+        //     text: 'Important Note:',
+        //     margin: [0, 200, 0, 0],
+        //     bold: true,
+        //     fontSize: 16
+        // });
+        // ddCont.push({
+        //     text: nheap.content_data['final-page--important-note.txt'],
+        //     margin: [0, 0, 0, 0],
+        //     bold: false,
+        //     fontSize: 16
+        // });
+        ddCont.push(
+            {
+                columns:
+                    [
+                        {
+                            image: imagesRack.loadedImages['brand-logo'].dataURI,
+                            width: 150,
+                            margin: [40, 40, 0, 0]
+                        }
+                    ]
+            });
+        ddCont.push({
+            canvas: [{ type: 'line', x1: 0, y1: 5, x2: 700, y2: 5, lineWidth: 1 }],
+            margin: [40, 15, 40, 0]
+        });
+        ddCont.push({
+            text: 'Disclaimer:',
+            margin: [40, 15, 0, 0],
+            bold: true,
+            fontSize: 16,
+            color: '#2574a9'
+        });
+        ddCont.push({
+            alignment: 'justify',
+            text: nheap.content_data['final-page--disclaimer.txt'],
+            margin: [40, 15, 40, 0],
+            bold: false,
+            fontSize: 11
+        });
+        ddCont.push({
+            canvas: [{ type: 'line', x1: 0, y1: 5, x2: 700, y2: 5, lineWidth: 1 }],
+            margin: [40, 15, 40, 0]
+        });
+        //.outputs assembled chart to html-page nicely formatted
+        //$$.c('pre').to( document.body ).ch(
+        //   $$.div().html( JSON.stringify( contCharts[0].options, null, '    ' )));
+
+        //ddCont[ ddCont.length - 1 ].pageBreak = 'after';
+    }
 
 
-// })();
+    //==============================        
+    // //\\ header
+    //==============================
+    // function addHeader() {
+    //     ddCont.push({
+    //         text: "Thank you",
+    //         //.left marg. may align with chart
+    //         //.last marg. adds the gab to chart
+    //         margin: [10, 5, 20, 0],
+    //         fontSize: 26,
+    //         color: '#333333',
+    //         bold: true
+    //     });
+    // }
+    //==============================        
+    // \\// header
+    //==============================
+
+
+})();
 
